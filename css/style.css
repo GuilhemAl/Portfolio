@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.menu {
+  background-color: #111418;
+  height: 100vh;
+  width: 14%;
+  position: fixed;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.content {
+  background-image: url("../image/background-city.jpeg");
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  transition: background-image 0.3s ease-in 0.2s;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 86%;
+  height: 3000px;
+  margin-left: 14%;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+}
+.container {
+  display: flex;
+}
+.presentation img {
+  width: 160px;
+  border-radius: 50%;
+}
+#cercle {
+  width: 176px;
+  height: 176px;
+  border-radius: 50%;
+  background-color: #343a40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav li {
+  list-style-type: none;
+
+  margin-top: 45%;
+  font-size: 16px;
+  color: #fafafae6;
+}
+.presentation {
+  margin-top: 15%;
+  text-align: center;
+}
+#name {
+  margin-top: 10%;
+  font-size: 21px;
+}
+nav {
+  text-align: center;
+  margin-bottom: 20%;
+}
+nav li a:hover {
+  color: #20c997;
+}
+a {
+  text-decoration: none;
+}
+.social-media {
+  margin-bottom: 3%;
+}
+.social-media a:nth-child(1) {
+  margin-right: 15px;
+}
+.accueil {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  margin-top: 20%;
+}
+.accueil h1 {
+  margin-bottom: 1%;
+  font-size: 28px;
+  font-weight: 500;
+}
+#js-animation {
+  font-size: 60px;
+  font-weight: 600;
+  display: inline-block;
+}
+.accueil button {
+  align-self: center;
+  margin-top: 2%;
+  border-width: 3px;
+  font-weight: 500;
+  padding: 0.8rem 2.6rem;
+  transition: all 0.5s ease;
+  border-color: #20c997;
+  color: #20c997;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 40px;
+  font-family: "Poppins", sans-serif;
+  border-style: solid;
+  font-size: 16px;
+}
+.accueil button:hover {
+  background-color: #20c997;
+  border-color: #20c997;
+  color: #fff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
+.accueil p {
+  margin-top: 1.5%;
+  font-size: 21px;
+}
+.aboutme {
+  margin-top: 21%;
+  overflow: hidden;
+  padding: 4.5rem;
+  position: relative;
+  background-color: #212529;
+}
+.title h3 {
+  font-weight: 600;
+  font-size: 2.25rem;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+}
+.description {
+  margin-top: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 57%;
+}
+.description h3 span {
+  color: #20c997;
+}
+.cv {
+  margin-top: 15%;
+  margin-left: 5%;
+}
+.separatorabout {
+  border-width: 2px;
+  border-color: #20c997;
+  opacity: 1;
+  color: transparent;
+
+  display: block;
+
+  border-style: solid;
+  width: 80px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.title h2 {
+  font-weight: 600;
+  font-size: calc(1.95rem + 5.4vw);
+  opacity: 0.1;
+  display: block;
+  margin-top: 0;
+  color: #6c757d;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  position: relative;
+  display: flex;
+}
